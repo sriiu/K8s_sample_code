@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: alpine
+        lables:
+           app: alpine-app
+           tier: frontend
+spec:
+    containers:
+                 - name: alpine
+                   image: alpine
